@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FEEDBACK FORM</title>
+<style>
+  
+      input {
+       
+        padding: 5px;
+        margin-bottom: 5px;
+      }
+      form,label {
+        background-color: skyblue;
+        margin: 10px;
+      }
+#i1{
+  
+height:6657px;
+
+width:557px;
+margin:4px;
+border: 2px solid turquise;
+
+
+}
+    </style>
+<h1 style="color:maroon;"><center>BOOK WAGON</center></h1>
+<h2 ><center>“A reader lives a thousand lives before he dies.” – George R. R. Martin<center></h2>
+<h3 style="color:maroon;"><center>GIVE YOUR FEEDBACK<center></h3>
+</head>
+<body>
+<center>
+<div id="i1">
+<form action="/action_page.php">
+<fieldset>
+<legend style="color:orangered;">PERSONAL DETAILS</legend>
+  <label for="fname">FIRST NAME:</label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">LAST NAME:</label>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="phoneno">PHONE NUMBER:</label>
+<input type="text" id="code" name="dailingcodes" value="+91"disabled>
+<input id="in" type="tel" placeholder="123-45-678" name="phoneno" pattern="[0-9]{3}-[0-9]{2}- [0-9]{3}" required>
+</fieldset>
+<fieldset>
+<legend style="color:orangered;">MENTION YOUR FAVORITES</legend>
+<p>FAVORITE AUTHORS:</p>
+  <input type="radio" id="ronda byrne" name="fav_language" value="Ronda Byrne">
+  <label for="Ronda Byrne">Ronda Byrne</label><br>
+  <input type="radio" id="kalki" name="fav_language" value="Kalki">
+  <label for="Kalki">Kalki</label><br>
+  <input type="radio" id="chetan bhagat" name="fav_language" value="Chetan Bhagat">
+  <label for="Chetan Bhagat">Chetan Bhagat</label>
+<p>FAVORITE BOOKS:</p>
+  <input type="checkbox" id="book1" name="book1" value="The Secret">
+  <label for="book1">The Secret</label><br>
+  <input type="checkbox" id="book2" name="book2" value="The Kite Runner">
+  <label for="book2">The Kite Runner</label><br>
+  <input type="checkbox" id="book3" name="book3" value="The Power Of Your Subconcious Mind">
+  <label for="book3">The Power Of Your Subconcious Mind</label>
+<br>
+<br>
+<p>FAVORITE GENRE:</p>
+<input list="genres">
+  <datalist id="genres">
+    <option value="FICTION">
+    <option value="NON-FICTION">
+    <option value="PSYCOLOGY">
+    <option value="PHILOSOPHY">
+    <option value="NOVELS">
+   <option value="HORROR">
+    <option value="SPRITUAL">
+  </datalist>
+<br>
+<br>
+<p>FAVORITE GENRE:</p>
+
+<select id="lang" name="lang" size="4" multiple>
+  <option value="English">English</option>
+  <option value="Tamil">Tamil</option>
+  <option value="Hindi">Hindi</option>
+  <option value="French">French</option>
+<option value="Sanskrit">Sanskrit</option>
+<option value="German">German</option>
+</select>
+
+</fieldset>
+<fieldset>
+<legend style="color:orangered;">YOUR FEEDBACK FOR US</legend>
+<textarea name="message" rows="20" cols="50">
+</textarea>
+</fieldset>
+
+<br>
+<div>
+<button type="reset" id="re-set">RESET</button>
+<button type="submit" id="submit">SUBMIT</button>
+</div>
+
+
+</form>
+</div></center>
+</body>
+</html>
